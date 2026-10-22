@@ -1,0 +1,118 @@
+{
+  "id": "marked",
+  "title": "MARKED",
+  "subtitle": "X and Infinity - two serial killers, six cities, one country to save",
+  "description": "The X Killer leaves an X. The Infinity Killer leaves a loop. Victims in Chennai, Mumbai, Delhi, Kolkata, Bengaluru and Jaipur. Every case file is different for every detective: new victim, new culprits-in-the-crowd, new lies.",
+  "order": 1,
+  "casesPerArc": 3,
+  "arcs": [
+    {
+      "id": "arc_x",
+      "title": "The X Killer",
+      "menaceName": "the X Killer",
+      "markName": "X",
+      "markShape": "MarkX",
+      "markColorHex": "#E62626",
+      "accentHex": "#3A3F4A",
+      "cities": ["Chennai", "Mumbai", "Delhi"]
+    },
+    {
+      "id": "arc_inf",
+      "title": "The Infinity Killer",
+      "menaceName": "the Infinity Killer",
+      "markName": "Infinity",
+      "markShape": "MarkInfinity",
+      "markColorHex": "#40D9F2",
+      "accentHex": "#2E3A44",
+      "cities": ["Kolkata", "Bengaluru", "Jaipur"]
+    }
+  ],
+  "characters": [
+    { "id": "mk_meera", "name": "Meera Iyer", "role": "ICU Nurse", "city": "Chennai", "age": 29, "colorHex": "#4C7FE0", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Double shifts, empty flat, a locked door." },
+    { "id": "mk_zara", "name": "Zara Sheikh", "role": "Night-Pharmacy Owner", "city": "Chennai", "age": 36, "colorHex": "#8B5CF6", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Served the late crowd, closed alone at midnight." },
+    { "id": "mk_rohan", "name": "Rohan Kapoor", "role": "Stockbroker", "city": "Mumbai", "age": 41, "colorHex": "#C9A227", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Money, enemies, and a Nariman Point office after hours." },
+    { "id": "mk_dinesh", "name": "Dinesh Rao", "role": "Dock Foreman", "city": "Mumbai", "age": 49, "colorHex": "#0E7490", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Knew every container on the dock and who paid to move them." },
+    { "id": "mk_anita", "name": "Anita Sharma", "role": "Antiques Dealer", "city": "Delhi", "age": 57, "colorHex": "#B05C3B", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Chandni Chowk shop, forged papers, dangerous knowledge." },
+    { "id": "mk_priya", "name": "Priya Nambiar", "role": "Schoolteacher", "city": "Delhi", "age": 33, "colorHex": "#D946EF", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Stayed late to grade papers in an empty school." },
+    { "id": "mk_sourav", "name": "Dr. Sourav Ghosh", "role": "Literature Professor", "city": "Kolkata", "age": 52, "colorHex": "#5E8C61", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Found in the university library after closing." },
+    { "id": "mk_abir", "name": "Abir Sen", "role": "Book Editor", "city": "Kolkata", "age": 44, "colorHex": "#65A30D", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Was editing a manuscript about an unsolved murder." },
+    { "id": "mk_kavya", "name": "Kavya Rao", "role": "App Developer", "city": "Bengaluru", "age": 26, "colorHex": "#7B61FF", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Night before her startup launch, in a co-working space." },
+    { "id": "mk_tanya", "name": "Tanya Dsouza", "role": "Caf\u00e9 Owner", "city": "Bengaluru", "age": 30, "colorHex": "#FB7185", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Her caf\u00e9 hosted the city's loudest arguments." },
+    { "id": "mk_imran", "name": "Imran Qureshi", "role": "Head Chef", "city": "Jaipur", "age": 38, "colorHex": "#E07A5F", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Found in the cold storage of a busy hotel kitchen." },
+    { "id": "mk_rahul", "name": "Rahul Meena", "role": "Folk Musician", "city": "Jaipur", "age": 35, "colorHex": "#F59E0B", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Played every wedding in the old city. Knew everyone." },
+
+    { "id": "mk_arjun", "name": "Arjun Nair", "role": "Night Security Guard", "city": "Chennai", "age": 34, "colorHex": "#6B7280", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Says he was on round 3 when it happened. The door log disagrees.", "statements": ["I check every gate twice, ask anyone.", "The cameras glitch at night, not my problem."] },
+    { "id": "mk_farida", "name": "Farida Khan", "role": "Private Investigator", "city": "Mumbai", "age": 40, "colorHex": "#A855F7", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Was following a cheating-spouse case across town. Receipts prove the trip.", "statements": ["I was hired to find a killer's mark, not make one.", "Your suspect list has a hole in it."] },
+    { "id": "mk_vikram", "name": "Vikram Sethi", "role": "Debt Collector", "city": "Delhi", "age": 45, "colorHex": "#DC2626", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Collecting on the other side of the city. Three witnesses.", "statements": ["I break knees, not necks.", "People owe me. That is not the same as hate."] },
+    { "id": "mk_reva", "name": "Reva Menon", "role": "Crime Journalist", "city": "Kolkata", "age": 33, "colorHex": "#0EA5E9", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Filed her story from a hotel press room at the time of death.", "statements": ["I write about killers. I do not become one.", "Ask me who paid to bury the first story."] },
+    { "id": "mk_tomas", "name": "Tomas Braganza", "role": "Architect", "city": "Mumbai", "age": 38, "colorHex": "#14B8A6", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Was at a site inspection in Pune, checked in by the client.", "statements": ["We ended badly. That was years ago.", "I know these buildings better than anyone."] },
+    { "id": "mk_suresh", "name": "Suresh Patel", "role": "Landlord", "city": "Delhi", "age": 55, "colorHex": "#B45309", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Home with his family. His son confirms it, a little too quickly.", "statements": ["Tenants leave. I keep the deposits.", "Every key to that building is mine."] },
+    { "id": "mk_meena", "name": "Meena Das", "role": "Pharmacist", "city": "Kolkata", "age": 29, "colorHex": "#EC4899", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "On shift behind the counter until 10 PM.", "statements": ["The last customer was in a hurry. I remember the scarf.", "I do not ask what the prescriptions are for."] },
+    { "id": "mk_jeet", "name": "Jeet Singh", "role": "Auto-Rickshaw Driver", "city": "Jaipur", "age": 26, "colorHex": "#84CC16", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Drove fares all evening. The meter log backs him up.", "statements": ["I drop people, I do not follow them.", "Somebody paid cash to ride at midnight."] },
+    { "id": "mk_leela", "name": "Leela Rathore", "role": "Apprentice Restorer", "city": "Jaipur", "age": 24, "colorHex": "#F97316", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Locked up the workshop and went home alone.", "statements": ["Old things carry old grudges.", "I only clean what I am told to clean."] },
+    { "id": "mk_nanda", "name": "Nanda Koli", "role": "Fish-Market Porter", "city": "Mumbai", "age": 31, "colorHex": "#64748B", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Hauling crates at Sassoon Dock from 2 AM onward.", "statements": ["I see everything, I say nothing.", "The dock never sleeps."] },
+    { "id": "mk_harsh", "name": "Harsh Vardhan", "role": "Delivery Courier", "city": "Bengaluru", "age": 27, "colorHex": "#22D3EE", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "App shows 41 deliveries that night, all timestamped.", "statements": ["I deliver boxes, not bodies.", "One address kept rerouting me. Odd, right?"] }
+  ],
+  "clues": [
+    { "id": "mark_x", "name": "Killer's X Mark", "desc": "A hand-drawn X, identical to the mark left on earlier victims. This is his signature.", "shape": "MarkX", "colorHex": "#E62626", "kind": "Guilty", "arcs": ["arc_x"] },
+    { "id": "mark_inf", "name": "Killer's Infinity Mark", "desc": "A looping infinity sign, identical to the mark left on earlier victims. This is her signature.", "shape": "MarkInfinity", "colorHex": "#40D9F2", "kind": "Guilty", "arcs": ["arc_inf"] },
+
+    { "id": "x_badge", "name": "Torn ID Badge", "desc": "A workplace badge, torn from its lanyard. Someone wanted the victim erased, not robbed.", "shape": "Flat", "colorHex": "#4C7FE0", "kind": "Flavor", "arcs": ["arc_x"] },
+    { "id": "x_phone", "name": "Cracked Phone", "desc": "The last call came from a blocked number at 3:12 AM - the guard's shift change.", "shape": "Flat", "colorHex": "#111827", "kind": "Herring", "implicates": "mk_arjun", "arcs": ["arc_x"] },
+    { "id": "x_cap", "name": "Stained Work Cap", "desc": "A cap with a stranger's hair caught inside. The strand is the real owner's.", "shape": "Sphere", "colorHex": "#3F6212", "kind": "Guilty", "arcs": ["arc_x"] },
+    { "id": "x_cup", "name": "Spilled Tea Cup", "desc": "Still warm. The victim knew the visitor well enough to pour them tea.", "shape": "Cylinder", "colorHex": "#F5F5DC", "kind": "Flavor", "arcs": ["arc_x"] },
+    { "id": "x_key", "name": "Spare Key", "desc": "Hidden under the mat, but the mat had been moved. Someone knew where it was.", "shape": "Flat", "colorHex": "#EAB308", "size": 0.2, "kind": "Guilty", "arcs": ["arc_x"] },
+    { "id": "x_ledger", "name": "Shredded Ledger", "desc": "Pages of payments, shredded in a hurry but not completely.", "shape": "Flat", "colorHex": "#F8FAFC", "kind": "Guilty", "arcs": ["arc_x"] },
+    { "id": "x_watch", "name": "Smashed Wristwatch", "desc": "Stopped at 11:47 PM - the exact minute the office alarms were disabled.", "shape": "Cylinder", "colorHex": "#CBD5E1", "size": 0.25, "kind": "Flavor", "arcs": ["arc_x"] },
+    { "id": "x_sim", "name": "Burner SIM Card", "desc": "A prepaid SIM used exactly once, registered to a dead man's name.", "shape": "Flat", "colorHex": "#22C55E", "size": 0.2, "kind": "Guilty", "arcs": ["arc_x"] },
+    { "id": "x_whisky", "name": "Whisky Glass", "desc": "Two glasses were poured. The second one carries the architect's brand.", "shape": "Cylinder", "colorHex": "#D97706", "kind": "Herring", "implicates": "mk_tomas", "arcs": ["arc_x"] },
+    { "id": "x_keycard", "name": "Elevator Keycard", "desc": "Issued to a floor the victim never used, cloned from a stolen master.", "shape": "Flat", "colorHex": "#EF4444", "size": 0.25, "kind": "Guilty", "arcs": ["arc_x"] },
+    { "id": "x_lamp", "name": "Brass Lamp Fragment", "desc": "Part of a lamp, stained dark. The blow came from behind.", "shape": "Capsule", "colorHex": "#D4A017", "kind": "Flavor", "arcs": ["arc_x"] },
+    { "id": "x_cert", "name": "Forged Certificate", "desc": "A certificate of origin with a stamp that does not exist in any registry.", "shape": "Flat", "colorHex": "#FDE68A", "kind": "Guilty", "arcs": ["arc_x"] },
+    { "id": "x_boot", "name": "Muddy Boot Print", "desc": "Size 10, deep tread. The same boot the debt collector wears to work.", "shape": "Flat", "colorHex": "#78350F", "kind": "Herring", "implicates": "mk_vikram", "arcs": ["arc_x"] },
+    { "id": "x_scarf", "name": "Torn Silk Scarf", "desc": "Expensive and perfumed. A private investigator's cover would look just like this.", "shape": "Flat", "colorHex": "#DB2777", "kind": "Herring", "implicates": "mk_farida", "arcs": ["arc_x"] },
+    { "id": "x_dagger", "name": "Missing Antique Dagger", "desc": "Taken from the display and wiped clean - except for one smeared print.", "shape": "Capsule", "colorHex": "#94A3B8", "kind": "Guilty", "arcs": ["arc_x"] },
+    { "id": "x_rentledger", "name": "Rent Register", "desc": "The landlord's own register, with this tenant's page torn out.", "shape": "Flat", "colorHex": "#E7E5E4", "kind": "Herring", "implicates": "mk_suresh", "arcs": ["arc_x"] },
+    { "id": "x_notebook", "name": "Surveillance Notebook", "desc": "Times, plates, faces. A professional tracker's shorthand.", "shape": "Flat", "colorHex": "#78350F", "kind": "Herring", "implicates": "mk_farida", "arcs": ["arc_x"] },
+
+    { "id": "i_libcard", "name": "Overdue Library Card", "desc": "Borrowed under a name that does not exist - but the handwriting matches one suspect.", "shape": "Flat", "colorHex": "#FACC15", "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "i_specs", "name": "Cracked Spectacles", "desc": "Fallen far from where the body lay. The pharmacist sold this frame last month.", "shape": "Sphere", "colorHex": "#1F2937", "size": 0.25, "kind": "Herring", "implicates": "mk_meena", "arcs": ["arc_inf"] },
+    { "id": "i_manuscript", "name": "Rare Manuscript Page", "desc": "A page cut from a priceless book, hidden inside another.", "shape": "Flat", "colorHex": "#F1D9A7", "kind": "Flavor", "arcs": ["arc_inf"] },
+    { "id": "i_kulhad", "name": "Cold Chai Kulhad", "desc": "Left on a desk where nobody was allowed to sit. The killer waited here.", "shape": "Cylinder", "colorHex": "#B45309", "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "i_notes", "name": "Torn Lecture Notes", "desc": "The last lines are about obsession and a name written over and over.", "shape": "Flat", "colorHex": "#F8FAFC", "kind": "Flavor", "arcs": ["arc_inf"] },
+    { "id": "i_laptop", "name": "Unlocked Laptop", "desc": "Open to a message: 'You cannot ship forever.' Sent from within the building.", "shape": "Flat", "colorHex": "#94A3B8", "size": 0.5, "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "i_usb", "name": "Black USB Drive", "desc": "Contains a wiped copy of the victim's source code. Wiped, not stolen.", "shape": "Cube", "colorHex": "#0B0B0B", "size": 0.2, "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "i_can", "name": "Crushed Energy Can", "desc": "Fingerprints in the dent are not the victim's - they belong to a driver.", "shape": "Cylinder", "colorHex": "#22C55E", "size": 0.3, "kind": "Herring", "implicates": "mk_jeet", "arcs": ["arc_inf"] },
+    { "id": "i_sticky", "name": "Sticky Note", "desc": "A password written in someone else's handwriting, pressed onto the monitor.", "shape": "Flat", "colorHex": "#FDE047", "size": 0.25, "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "i_wire", "name": "Cut Camera Wire", "desc": "The security camera was disabled ten minutes before the crime.", "shape": "Capsule", "colorHex": "#0B0B0B", "size": 0.4, "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "i_kniferoll", "name": "Knife Roll", "desc": "One knife missing from the chef's own set, cleaned with surgical care.", "shape": "Flat", "colorHex": "#92400E", "size": 0.4, "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "i_spicejar", "name": "Spice Jar", "desc": "Labelled saffron. Contains something that is definitely not saffron.", "shape": "Cylinder", "colorHex": "#F97316", "kind": "Flavor", "arcs": ["arc_inf"] },
+    { "id": "i_glove", "name": "Frozen Glove", "desc": "A rubber glove frozen stiff, a handprint sealed inside.", "shape": "Flat", "colorHex": "#38BDF8", "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "i_receipt", "name": "Delivery Receipt", "desc": "Signed with a looping flourish by a porter who claims he never entered.", "shape": "Flat", "colorHex": "#F5F5F0", "size": 0.25, "kind": "Herring", "implicates": "mk_nanda", "arcs": ["arc_inf"] },
+    { "id": "i_freezertag", "name": "Freezer Tag", "desc": "Shows the freezer was locked at 9:05 PM - and reopened at 9:40 by a master key.", "shape": "Flat", "colorHex": "#2563EB", "size": 0.2, "kind": "Guilty", "arcs": ["arc_inf"] },
+    { "id": "n_pendant", "name": "Engraved Pendant", "desc": "A cheap pendant engraved with initials that match a name on the suspect list.", "shape": "Sphere", "colorHex": "#E5E7EB", "size": 0.2, "kind": "Guilty" },
+    { "id": "n_token", "name": "Arcade Token", "desc": "A token punched with a private club's crest, dropped in the doorway.", "shape": "Cylinder", "colorHex": "#B8B8C0", "size": 0.18, "kind": "Guilty" },
+    { "id": "n_umbrella", "name": "Broken Umbrella", "desc": "Snapped in half, with a rickshaw company's sticker on the handle.", "shape": "Capsule", "colorHex": "#1E3A8A", "size": 0.4, "kind": "Herring", "implicates": "mk_jeet" },
+    { "id": "n_hairpin", "name": "Silver Hairpin", "desc": "A hairpin bent into a lock-pick. Whoever dropped it came prepared.", "shape": "Capsule", "colorHex": "#D1D5DB", "size": 0.2, "kind": "Guilty" },
+    { "id": "n_photos", "name": "Surveillance Photos", "desc": "Long-lens photos of the victim's daily route. The killer watched for weeks.", "shape": "Flat", "colorHex": "#E5E7EB", "kind": "Guilty" },
+    { "id": "n_diary", "name": "Water-stained Diary", "desc": "One entry repeats: 'they know where I go.' No name is given.", "shape": "Flat", "colorHex": "#7C2D12", "kind": "Flavor" }
+  ],
+  "titleTemplates": [
+    "The {MARK} at {CITY}",
+    "The Case of {VICTIM_LAST}",
+    "Last Night in {CITY}",
+    "The {CITY} File",
+    "A Matter of the {MARK}",
+    "The Silent {CITY} Night"
+  ],
+  "situationTemplates": [
+    "{VICTIM}, {VICTIM_ROLE}, was found dead in {CITY}. The scene was left almost untouched - except for one thing.",
+    "Another body in {CITY}: {VICTIM}, {VICTIM_ROLE}. The killer was patient, and the room is full of small mistakes.",
+    "{VICTIM}, {VICTIM_ROLE}, never made it home. Officers sealed the room in {CITY}, and every object in it is now evidence."
+  ],
+  "briefingTemplates": [
+    "Another {MARK} was found at the scene. {MENACE} waits for people who are tired and alone. Search the room before the trail goes cold.",
+    "{MENACE} never repeats a method, but never forgets the {MARK}. {SUSPECT} was seen nearby - and someone is lying.",
+    "The {MARK} matches earlier cases exactly. Several suspects gave statements; one of them is false. Find the clue that proves it."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "paper_tigers",
+  "title": "PAPER TIGERS",
+  "subtitle": "Forgeries, funerals and a claw mark on every fake masterpiece",
+  "description": "The art world's oldest lie is that a paper trail cannot kill. Appraisers in Jaipur, Delhi, Agra and Udaipur are dying and their collections are quietly being rewritten. Follow the claw mark, decode the provenance, and expose the forger hiding behind a perfect signature.",
+  "order": 3,
+  "casesPerArc": 3,
+  "arcs": [
+    {
+      "id": "arc_tiger",
+      "title": "The Paper Tiger",
+      "menaceName": "the Paper Tiger",
+      "markName": "Claw",
+      "markShape": "MarkClaw",
+      "markColorHex": "#E6A23C",
+      "accentHex": "#33261A",
+      "cities": ["Jaipur", "Delhi", "Agra"]
+    },
+    {
+      "id": "arc_ash",
+      "title": "The Ash Appraiser",
+      "menaceName": "the Ash Appraiser",
+      "markName": "Triangle",
+      "markShape": "MarkTriangle",
+      "markColorHex": "#9C6ADE",
+      "accentHex": "#241F33",
+      "cities": ["Udaipur", "Jaipur", "Delhi"]
+    }
+  ],
+  "characters": [
+    { "id": "pt_kalpana", "name": "Kalpana Bhatt", "role": "Museum Appraiser", "city": "Jaipur", "age": 52, "colorHex": "#B45309", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "She could date a painting by its dust. Someone needed her to stop looking." },
+    { "id": "pt_giovanni", "name": "Giovanni Price", "role": "Private Collector", "city": "Delhi", "age": 60, "colorHex": "#0E7490", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Owned half the fakes he was ever shown - and knew about all of them." },
+    { "id": "pt_asha", "name": "Asha Verma", "role": "Temple Trust Officer", "city": "Udaipur", "age": 48, "colorHex": "#DC2626", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Found the first fake idol and started asking whose hands touched it." },
+    { "id": "pt_mohan", "name": "Mohan Lal", "role": "Miniature Painter", "city": "Jaipur", "age": 58, "colorHex": "#CA8A04", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "His brush was his signature. Someone learned to copy it." },
+    { "id": "pt_tabassum", "name": "Tabassum Rizvi", "role": "Archive Keeper", "city": "Delhi", "age": 41, "colorHex": "#7C3AED", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Kept the only honest index of the city's private collections." },
+    { "id": "pt_vikrant", "name": "Vikrant Deo", "role": "Auction Registrar", "city": "Agra", "age": 46, "colorHex": "#0891B2", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "He notarised a sale he should have refused. Then he called the police." },
+
+    { "id": "pt_ratan", "name": "Ratan Singh", "role": "Gallery Owner", "city": "Jaipur", "age": 55, "colorHex": "#92400E", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Hosting an opening night with a hundred guests and three photographers.", "statements": ["I sell beauty, not paperwork.", "You cannot forge what was never real to begin with."] },
+    { "id": "pt_sofia", "name": "Sofia Alvarez", "role": "Master Restorer", "city": "Jaipur", "age": 34, "colorHex": "#F472B6", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "In the conservation lab, logged in by keycard every twenty minutes.", "statements": ["Restoring and faking are one skill apart.", "The pigment on that canvas is younger than the story."] },
+    { "id": "pt_imtiaz", "name": "Imtiaz Karim", "role": "Calligrapher", "city": "Delhi", "age": 41, "colorHex": "#059669", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Teaching a masterclass to eighteen students, all filmed.", "statements": ["A hand is a fingerprint. Mine is famous.", "Someone is signing my name on work I never touched."] },
+    { "id": "pt_bianca", "name": "Bianca Rossi", "role": "Overseas Dealer", "city": "Delhi", "age": 44, "colorHex": "#EAB308", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Cleared customs in another country, stamps verified.", "statements": ["Sellers lie, buyers lie more.", "I move pieces, I do not make them."] },
+    { "id": "pt_nusrat", "name": "Nusrat Jahan", "role": "Museum Curator", "city": "Jaipur", "age": 38, "colorHex": "#14B8A6", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "In a board meeting, minutes signed by seven trustees.", "statements": ["Every fake in a museum started as a donation.", "The thief always leaves the best paper behind."] },
+    { "id": "pt_jayant", "name": "Jayant Mehra", "role": "Auctioneer", "city": "Delhi", "age": 50, "colorHex": "#6366F1", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "On the auction floor, on camera, for the entire evening.", "statements": ["I sell what is catalogued.", "A provenance is only as honest as its notary."] },
+    { "id": "pt_lena", "name": "Lena Kovac", "role": "Catalogue Photographer", "city": "Udaipur", "age": 29, "colorHex": "#DB2777", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Shooting a wedding portfolio, files timestamped to the minute.", "statements": ["I photograph what is real. Then I print it twice.", "The back of a canvas tells the truth."] },
+    { "id": "pt_hugo", "name": "Hugo Meier", "role": "Silent Buyer", "city": "Delhi", "age": 58, "colorHex": "#64748B", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Home, unreachable, phone switched off since the first death.", "statements": ["I pay well and ask nothing.", "Some objects arrive already cursed."] },
+    { "id": "pt_ravi", "name": "Ravi Chamar", "role": "Antiques Porter", "city": "Jaipur", "age": 35, "colorHex": "#78716C", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Loading a truck at the transport yard, weighbridge records confirm.", "statements": ["I carry crates, not secrets.", "Somebody recycles the same bubble wrap between galleries."] }
+  ],
+  "clues": [
+    { "id": "mark_claw", "name": "The Claw Mark", "desc": "Three parallel claw strokes branded into the frame. The Paper Tiger's calling card.", "shape": "MarkClaw", "colorHex": "#E6A23C", "kind": "Guilty", "arcs": ["arc_tiger"] },
+    { "id": "mark_ash", "name": "The Triangle Mark", "desc": "A neat triangle burned over the inventory number. The Ash Appraiser's mark.", "shape": "MarkTriangle", "colorHex": "#9C6ADE", "kind": "Guilty", "arcs": ["arc_ash"] },
+
+    { "id": "pt_provenance", "name": "Forged Provenance", "desc": "A certificate of origin with a museum stamp that closed forty years ago.", "shape": "Flat", "colorHex": "#FDE68A", "kind": "Guilty", "arcs": ["arc_tiger"] },
+    { "id": "pt_seal", "name": "Tiger Wax Seal", "desc": "A private seal used to authenticate pieces. This one is a copy cast from the original.", "shape": "Cylinder", "colorHex": "#B45309", "size": 0.22, "kind": "Guilty", "arcs": ["arc_tiger"] },
+    { "id": "pt_inkpot", "name": "Saffron Ink Pot", "desc": "The ink matches the signature on three questionable certificates.", "shape": "Cylinder", "colorHex": "#F59E0B", "kind": "Flavor", "arcs": ["arc_tiger"] },
+    { "id": "pt_uvlamp", "name": "UV Lamp", "desc": "A restorer's lamp, left charged. Under UV, half the signatures glow new.", "shape": "Cube", "colorHex": "#4C1D95", "size": 0.3, "kind": "Guilty", "arcs": ["arc_tiger"] },
+    { "id": "pt_ledger", "name": "Acquisition Ledger", "desc": "Fifty pieces bought for nothing and sold as heirlooms. Names are initialled.", "shape": "Flat", "colorHex": "#D6D3D1", "kind": "Guilty", "arcs": ["arc_tiger"] },
+    { "id": "pt_scrap", "name": "Rice-Paper Scrap", "desc": "Torn from a rare scroll and tucked into a modern catalogue.", "shape": "Flat", "colorHex": "#FEF3C7", "size": 0.2, "kind": "Flavor", "arcs": ["arc_tiger"] },
+    { "id": "pt_hgloves", "name": "Cotton Handling Gloves", "desc": "Porter's gloves, dusted with the same pigment found on the fake.", "shape": "Flat", "colorHex": "#E5E7EB", "kind": "Herring", "implicates": "pt_ravi", "arcs": ["arc_tiger"] },
+    { "id": "pt_brush", "name": "Restorer's Brush", "desc": "A fine sable brush, still damp, with a thumbprint melted into the varnish.", "shape": "Capsule", "colorHex": "#78350F", "size": 0.28, "kind": "Guilty", "arcs": ["arc_tiger"] },
+    { "id": "pt_passport", "name": "Stamped Passport", "desc": "A dealer's passport with a page that should exist and does not.", "shape": "Flat", "colorHex": "#1E3A8A", "size": 0.22, "kind": "Herring", "implicates": "pt_bianca", "arcs": ["arc_tiger"] },
+
+    { "id": "pt_ashes", "name": "Ashes in an Envelope", "desc": "Burned paperwork collected in a hurry. One corner survives: a bank account.", "shape": "Flat", "colorHex": "#4B5563", "size": 0.22, "kind": "Guilty", "arcs": ["arc_ash"] },
+    { "id": "pt_letter", "name": "Threatening Letter", "desc": "Cut-out letters demanding a collection be 'corrected' before the auction.", "shape": "Flat", "colorHex": "#F5F5F4", "kind": "Guilty", "arcs": ["arc_ash"] },
+    { "id": "pt_tape", "name": "Packing Tape Roll", "desc": "Gallery tape with a thread of antique silk stuck to the adhesive.", "shape": "Cylinder", "colorHex": "#A16207", "size": 0.25, "kind": "Flavor", "arcs": ["arc_ash"] },
+    { "id": "pt_loupe", "name": "Jeweller's Loupe", "desc": "An auctioneer's loupe, left on the victim's desk after hours.", "shape": "Sphere", "colorHex": "#111827", "size": 0.2, "kind": "Herring", "implicates": "pt_jayant", "arcs": ["arc_ash"] },
+    { "id": "pt_key", "name": "Strongroom Key", "desc": "A copy of the strongroom key, cut from a mould still in the workshop.", "shape": "Capsule", "colorHex": "#CBD5E1", "size": 0.2, "kind": "Guilty", "arcs": ["arc_ash"] },
+    { "id": "pt_invoice", "name": "Courier Invoice", "desc": "A crate shipped to a silent buyer under a false description.", "shape": "Flat", "colorHex": "#F1F5F9", "size": 0.22, "kind": "Herring", "implicates": "pt_hugo", "arcs": ["arc_ash"] },
+    { "id": "pt_shard", "name": "Idol Shard", "desc": "A broken fragment from a temple piece that was never supposed to leave.", "shape": "Flat", "colorHex": "#A8A29E", "size": 0.25, "kind": "Flavor", "arcs": ["arc_ash"] },
+    { "id": "pt_calendar", "name": "Auction Calendar", "desc": "Circle marks on six dates, matching six pieces now in private hands.", "shape": "Flat", "colorHex": "#E7E5E4", "kind": "Guilty", "arcs": ["arc_ash"] },
+
+    { "id": "pt_receipt", "name": "Donation Receipt", "desc": "A temple donation receipt signed with a hand that appraises for a living.", "shape": "Flat", "colorHex": "#FDE68A", "size": 0.22, "kind": "Guilty" },
+    { "id": "pt_diary", "name": "Appraiser's Diary", "desc": "The last page lists three initials and the word 'owned'. No full names.", "shape": "Flat", "colorHex": "#7C2D12", "kind": "Flavor" },
+    { "id": "pt_phone", "name": "Burner Phone", "desc": "One number saved, labelled only with a camera brand. A photographer's spare.", "shape": "Flat", "colorHex": "#1F2937", "size": 0.22, "kind": "Herring", "implicates": "pt_lena" },
+    { "id": "pt_ticket", "name": "Train Ticket Stub", "desc": "A first-class stub dated the night before the murder, seat 4A.", "shape": "Flat", "colorHex": "#E5E7EB", "size": 0.2, "kind": "Guilty" }
+  ],
+  "titleTemplates": [
+    "The Claw in {CITY}",
+    "The {CITY} Provenance",
+    "The Case of {VICTIM_LAST}",
+    "Sale of the Century, {CITY}",
+    "The Fake and the Funeral",
+    "Ink and Ashes in {CITY}"
+  ],
+  "situationTemplates": [
+    "{VICTIM}, {VICTIM_ROLE}, was found among crates in {CITY}. One crate had been opened and resealed.",
+    "An appraiser's office in {CITY}: {VICTIM}, {VICTIM_ROLE}, dead, with a catalogue open to a forged lot.",
+    "{VICTIM}, {VICTIM_ROLE}, cancelled an auction the morning they died. In {CITY}, the buyer is already calling."
+  ],
+  "briefingTemplates": [
+    "The {MARK} was burned into the frame of a painting that should not exist. {MENACE} has been selling lies for years. Find the proof.",
+    "A forger needs quiet hands and an alibi with witnesses. {MENACE} has both. The {MARK} is the one habit they cannot quit.",
+    "{SUSPECT} was the last to appraise the piece. Sources say the paperwork is 'too perfect'. Find every clue before the auction clears."
+  ]
+}

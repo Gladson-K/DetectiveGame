@@ -1,0 +1,96 @@
+{
+  "id": "velvet_static",
+  "title": "THE VELVET STATIC",
+  "subtitle": "A phantom DJ, a vanished festival, and a lightning mark on every body",
+  "description": "Three years ago the Velvet Static festival ended in a blackout nobody explained. Now the people who ran it are dying, one club at a time, across Goa, Mumbai, Hyderabad, Pune and Chennai. Find the lightning mark, read the green room lies, and name the DJ who never plays twice.",
+  "order": 2,
+  "casesPerArc": 3,
+  "arcs": [
+    {
+      "id": "arc_static",
+      "title": "The Velvet Static",
+      "menaceName": "the Velvet Static",
+      "markName": "Bolt",
+      "markShape": "MarkZig",
+      "markColorHex": "#40D9F2",
+      "accentHex": "#241A33",
+      "cities": ["Goa", "Mumbai", "Hyderabad"]
+    },
+    {
+      "id": "arc_echo",
+      "title": "The Echo Signal",
+      "menaceName": "the Echo",
+      "markName": "Wave",
+      "markShape": "MarkWave",
+      "markColorHex": "#F240D9",
+      "accentHex": "#2A1030",
+      "cities": ["Pune", "Chennai", "Goa"]
+    }
+  ],
+  "characters": [
+    { "id": "vs_ryo", "name": "Ryo Azevedo", "role": "Headline DJ", "city": "Goa", "age": 29, "colorHex": "#22D3EE", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Closed the festival's final set. Has not spoken on stage since." },
+    { "id": "vs_ellie", "name": "Ellie Barros", "role": "Festival Coordinator", "city": "Goa", "age": 31, "colorHex": "#FB7185", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "She kept the festival's real account books hidden." },
+    { "id": "vs_salman", "name": "Salman Rehvi", "role": "Sound Curator", "city": "Mumbai", "age": 44, "colorHex": "#A78BFA", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Archived every set ever played at the festival." },
+    { "id": "vs_pia", "name": "Pia Malhotra", "role": "Club Manager", "city": "Mumbai", "age": 35, "colorHex": "#F0ABFC", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Booked the mystery act under a fake name." },
+    { "id": "vs_arav", "name": "Arav Krishnan", "role": "Lighting Crew Chief", "city": "Hyderabad", "age": 39, "colorHex": "#FBBF24", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "The only person who saw the stage the night of the blackout." },
+    { "id": "vs_vivek", "name": "Vivek Gokhale", "role": "Pawn Shop Owner", "city": "Pune", "age": 43, "colorHex": "#34D399", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Bought a crate of gear the week the festival collapsed." },
+    { "id": "vs_swathi", "name": "Swathi Rajan", "role": "Voice Coach", "city": "Chennai", "age": 37, "colorHex": "#818CF8", "canBeVictim": true, "canBeSuspect": false, "canBeCulprit": false, "bio": "Trained the voice behind the festival's famous closer." },
+
+    { "id": "vs_maya", "name": "Maya Fernandes", "role": "Club Promoter", "city": "Goa", "age": 36, "colorHex": "#EC4899", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Was on a call with the mainland sponsor for two hours. Records exist.", "statements": ["Promoters get blamed for everything.", "I built that festival. Someone burned it down."] },
+    { "id": "vs_zoya", "name": "Zoya Qureshi", "role": "Sound Engineer", "city": "Mumbai", "age": 28, "colorHex": "#38BDF8", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Was restoring a vintage console in her studio, alone, by choice.", "statements": ["A bolt is a sound, not a knife.", "Every venue has a back door only the sound crew knows."] },
+    { "id": "vs_kabir", "name": "Kabir Sen", "role": "Rival DJ", "city": "Kolkata", "age": 31, "colorHex": "#F97316", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Streamed a live set to 40,000 people at the exact hour.", "statements": ["I lost the headline slot to a ghost act.", "I sample, I do not stab."] },
+    { "id": "vs_farhan", "name": "Farhan Ali", "role": "Club Owner", "city": "Hyderabad", "age": 47, "colorHex": "#10B981", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "At a business dinner with city officials. Six witnesses.", "statements": ["My clubs are clean. Mostly.", "The private rooms have cameras. Check them."] },
+    { "id": "vs_dev", "name": "Dev Rathore", "role": "Lighting Technician", "city": "Pune", "age": 33, "colorHex": "#FACC15", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": true, "alibi": "Rigging a wedding stage until 2 AM, signed off by the venue.", "statements": ["I make darkness. I do not use it.", "The blackout was no accident. I said so then."] },
+    { "id": "vs_naina", "name": "Naina Pillai", "role": "Vocalist", "city": "Chennai", "age": 27, "colorHex": "#F472B6", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Recording in a booth with timestamped takes all night.", "statements": ["I sang over the blackout. Nobody heard me.", "The engineer kept staring at the door."] },
+    { "id": "vs_sana", "name": "Sana Mirza", "role": "Label Executive", "city": "Mumbai", "age": 38, "colorHex": "#60A5FA", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "On a red-eye flight, manifest verified.", "statements": ["The festival was insured to fail.", "Artists die. Contracts do not."] },
+    { "id": "vs_om", "name": "Om Jadhav", "role": "Head Bouncer", "city": "Hyderabad", "age": 30, "colorHex": "#94A3B8", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Working the door, on camera, all night.", "statements": ["Nobody enters without my nod.", "One guest always used the staff lift."] },
+    { "id": "vs_iris", "name": "Iris Dsouza", "role": "VJ and Host", "city": "Goa", "age": 26, "colorHex": "#C084FC", "canBeVictim": false, "canBeSuspect": true, "canBeCulprit": false, "alibi": "Hosting backstage interviews, video confirmations for each segment.", "statements": ["I know every green room secret.", "The phantom act had a real rider list."] }
+  ],
+  "clues": [
+    { "id": "mark_static", "name": "The Bolt Mark", "desc": "A jagged lightning bolt scratched into the surface. It is the Velvet Static's signature.", "shape": "MarkZig", "colorHex": "#40D9F2", "kind": "Guilty", "arcs": ["arc_static"] },
+    { "id": "mark_echo", "name": "The Wave Mark", "desc": "A looping wave burned into the wall. A copycat is replaying the old signal.", "shape": "MarkWave", "colorHex": "#F240D9", "kind": "Guilty", "arcs": ["arc_echo"] },
+
+    { "id": "vs_mixercable", "name": "Frayed Mixer Cable", "desc": "Cut with precision tooling only a sound engineer carries.", "shape": "Capsule", "colorHex": "#0B0B0B", "size": 0.4, "kind": "Guilty", "arcs": ["arc_static"] },
+    { "id": "vs_usbset", "name": "Unlabelled USB Set", "desc": "Three drives in a case, each wiped of its original festival recordings.", "shape": "Cube", "colorHex": "#1F2937", "size": 0.2, "kind": "Guilty", "arcs": ["arc_static"] },
+    { "id": "vs_pass", "name": "Backstage Pass", "desc": "A laminated pass two years out of date, refitted by the head bouncer's laminator.", "shape": "Flat", "colorHex": "#F59E0B", "size": 0.2, "kind": "Herring", "implicates": "vs_om", "arcs": ["arc_static"] },
+    { "id": "vs_gel", "name": "Energy Gel Packet", "desc": "Torn open and squeezed dry. Whoever waited here planned to stay a while.", "shape": "Flat", "colorHex": "#22C55E", "size": 0.18, "kind": "Flavor", "arcs": ["arc_static"] },
+    { "id": "vs_vinyl", "name": "Signed Vinyl Sleeve", "desc": "The festival's rarest press, signed by the headliner who never plays again.", "shape": "Flat", "colorHex": "#7C3AED", "size": 0.45, "kind": "Guilty", "arcs": ["arc_static"] },
+    { "id": "vs_mic", "name": "Cracked Microphone", "desc": "The capsule is fine. The impact came from a hand, not the drop.", "shape": "Cylinder", "colorHex": "#CBD5E1", "size": 0.3, "kind": "Flavor", "arcs": ["arc_static"] },
+    { "id": "vs_sim", "name": "Conference SIM", "desc": "A prepaid SIM registered to a stage-hand agency that dissolved years ago.", "shape": "Flat", "colorHex": "#22C55E", "size": 0.2, "kind": "Guilty", "arcs": ["arc_static"] },
+    { "id": "vs_cufflink", "name": "Monogrammed Cufflink", "desc": "A club owner's initial, dropped near the private lift.", "shape": "Sphere", "colorHex": "#FBBF24", "size": 0.18, "kind": "Herring", "implicates": "vs_farhan", "arcs": ["arc_static"] },
+    { "id": "vs_monitor", "name": "Cracked Stage Monitor", "desc": "Blown at the exact frequency of the old festival's blackout tone.", "shape": "Cube", "colorHex": "#334155", "size": 0.4, "kind": "Flavor", "arcs": ["arc_static"] },
+    { "id": "vs_earpiece", "name": "In-ear Monitor", "desc": "Still warm, tuned to a private channel that no band was using.", "shape": "Sphere", "colorHex": "#0EA5E9", "size": 0.16, "kind": "Guilty", "arcs": ["arc_static"] },
+
+    { "id": "vs_tapes", "name": "Cassette Tape Set", "desc": "Labels rewritten in the same hand as the festival's master cue sheets.", "shape": "Flat", "colorHex": "#78350F", "size": 0.3, "kind": "Guilty", "arcs": ["arc_echo"] },
+    { "id": "vs_gloves", "name": "Stage Gloves", "desc": "White gloves with rigging grease worked into every fingertip.", "shape": "Flat", "colorHex": "#E5E7EB", "kind": "Guilty", "arcs": ["arc_echo"] },
+    { "id": "vs_whistle", "name": "Referee Whistle", "desc": "A novelty whistle, the kind sold at the festival's final night.", "shape": "Cylinder", "colorHex": "#FACC15", "size": 0.2, "kind": "Flavor", "arcs": ["arc_echo"] },
+    { "id": "vs_lanyard", "name": "Security Lanyard", "desc": "Stamped with the head bouncer's crew number.", "shape": "Flat", "colorHex": "#1E293B", "size": 0.22, "kind": "Herring", "implicates": "vs_om", "arcs": ["arc_echo"] },
+    { "id": "vs_amp", "name": "Burned Amp Fuse", "desc": "Bypassed deliberately. This blackout was manufactured.", "shape": "Cylinder", "colorHex": "#B91C1C", "size": 0.2, "kind": "Guilty", "arcs": ["arc_echo"] },
+    { "id": "vs_photo", "name": "Press Photo", "desc": "A launch party photo with one face circled in label-executive red ink.", "shape": "Flat", "colorHex": "#E2E8F0", "size": 0.3, "kind": "Herring", "implicates": "vs_sana", "arcs": ["arc_echo"] },
+    { "id": "vs_payroll", "name": "Payroll Ledger", "desc": "Ghost payments to a stage name that never appeared on any lineup.", "shape": "Flat", "colorHex": "#F5F5F4", "kind": "Guilty", "arcs": ["arc_echo"] },
+    { "id": "vs_battery", "name": "9V Battery Pack", "desc": "Half the cells are drained. Something was recording for hours.", "shape": "Cube", "colorHex": "#111827", "size": 0.22, "kind": "Flavor", "arcs": ["arc_echo"] },
+
+    { "id": "vs_lipstick", "name": "Lipstick Message", "desc": "Written on the mirror in the victim's own shade, yet the victim never wore it.", "shape": "Flat", "colorHex": "#E11D48", "size": 0.3, "kind": "Guilty" },
+    { "id": "vs_keychain", "name": "Studio Keychain", "desc": "A rival DJ's tour keychain. Too obvious to be a mistake.", "shape": "Sphere", "colorHex": "#F97316", "size": 0.18, "kind": "Herring", "implicates": "vs_kabir" },
+    { "id": "vs_flash", "name": "Encrypted Flash Drive", "desc": "Locked behind a six-digit code. The files are named after dead artists.", "shape": "Cube", "colorHex": "#0B0B0B", "size": 0.2, "kind": "Guilty" },
+    { "id": "vs_banner", "name": "Torn Backstage Banner", "desc": "The old festival logo, sliced neatly along the lightning bolt.", "shape": "Flat", "colorHex": "#7E22CE", "size": 0.5, "kind": "Flavor" }
+  ],
+  "titleTemplates": [
+    "Bolt at {CITY}",
+    "The {CITY} Encore",
+    "The Case of {VICTIM_LAST}",
+    "Noise Complaint, {CITY}",
+    "The Last Set",
+    "Feedback at {CITY}"
+  ],
+  "situationTemplates": [
+    "{VICTIM}, {VICTIM_ROLE}, was found after closing time in {CITY}. The speakers were still humming.",
+    "In {CITY}, {VICTIM} - {VICTIM_ROLE} - never made it to the encore. Every cable in the room has been examined except one.",
+    "The green room in {CITY} was locked from the inside. {VICTIM}, {VICTIM_ROLE}, was alone. Almost."
+  ],
+  "briefingTemplates": [
+    "A {MARK} was left on the mirror, same as always. {MENACE} knows this venue's wiring better than the staff. Find every clue.",
+    "{MENACE} played this room once, years ago. The {MARK} proves they came back. {SUSPECT} swears the stage door was chained.",
+    "The blackout lasted eleven minutes. In that window, someone killed and walked out the crew entrance. The {MARK} is your only witness."
+  ]
+}

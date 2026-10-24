@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  detective-game:
+    build: .
+    container_name: detective-game-dev
+    volumes:
+      - ./DetectiveGame:/workspace/DetectiveGame
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    environment:
+      - DISPLAY=${DISPLAY}
+      - UNITY_EDITOR=/opt/unity/Editor/Unity
+    network_mode: host
+    stdin_open: true
+    tty: true

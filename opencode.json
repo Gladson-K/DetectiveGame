@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["AGENTS.md", "../_governance/AGENTS.md"],
+  "references": {
+    "governance": {
+      "path": "../_governance",
+      "description": "Workspace AI governance: risk tiers, EU/global law matrix, data map, security baseline, review agents"
+    }
+  },
+  "skills": { "paths": ["../_governance/skills"] },
+  "permission": {
+    "external_directory": {
+      "*": "deny",
+      "/mnt/d/Workspace_Glad/Projects/_governance/**": "allow"
+    }
+  }
+}
